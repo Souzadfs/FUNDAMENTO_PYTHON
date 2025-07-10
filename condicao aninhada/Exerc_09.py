@@ -10,11 +10,7 @@ escolha = input('''Olá! Posso ajudar? O que deseja comprar?
 [3] Tablet
 Digite o número da opção: ''')
 
-#opcao_pgto = input('''Qual a forma de pagamento? 
- #                  [AVISTA]
-  #                 [PARCELADO]''')
-
-# Aplicar desconto de 10%
+# Aplicar desconto
 desconto = 0.10
 desconto2 = 0.20
 
@@ -49,11 +45,3 @@ if escolha == '1':
 
 
 
-#elif escolha == '2':
- #   preco_final = tv_60 * (1 - desconto)
-  #  print(f"Você escolheu TV 60\". Preço com 10% de desconto: R$ {preco_final:.2f}")
-#elif escolha == '3':
- #   preco_final = tablet * (1 - desconto)
-  #  print(f"Você escolheu Tablet. Preço com 10% de desconto: R$ {preco_final:.2f}")
-#else:
- #   print("Opção inválida.")
