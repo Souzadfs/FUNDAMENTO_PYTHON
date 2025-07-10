@@ -35,6 +35,6 @@ elif computador == 3:
         print('Computador Venceu!')
     elif jogador == 3:
         print('EMPATE!')
-# issues solve.Sss
+# issues solve.S
 
 
