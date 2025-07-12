@@ -1,0 +1,26 @@
+q_1 = float(input('questão 1 '))
+q_2 = float(input('questão 2 '))
+q_3 = float(input('questão 3 '))
+q_4 = float(input('questão 1 '))
+q_5 = float(input('questão 1 '))
+q_6 = float(input('questão 1 '))
+q_7 = float(input('questão 1 '))
+q_8 = float(input('questão 1 '))
+q_9 = float(input('questão 1 '))
+q_10 = float(input('questão 1 '))
+q_11 = float(input('questão 1 '))
+q_12 = float(input('questão 1 '))
+q_13 = float(input('questão 1 '))
+q_14 = float(input('questão 1 '))
+q_15 = float(input('questão 1 '))
+q_16 = float(input('questão 1 '))
+q_17 = float(input('questão 1 '))
+q_18 = float(input('questão 1 '))
+q_19= float(input('questão 1 '))
+q_20= float(input('questão 1 '))
+q_21 = float(input('questão 1 '))
+
+soma = q_1 + q_2 + q_3 + q_4 + q_5 + q_6 + q_7 + q_8 + q_9 + q_10 + q_11 + q_12 + q_13 + q_14 + q_15 + q_16 + q_17 + q_18 + q_19 + q_20 + q_21
+
+
+print(soma)
