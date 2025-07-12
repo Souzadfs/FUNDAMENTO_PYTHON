@@ -36,4 +36,3 @@ elif computador == 3:
     elif jogador == 3:
         print('EMPATE!')
 # #
-#
