@@ -1,1 +1,1 @@
-var = input('OI td bem')
+var = input('OI td bem bem')
