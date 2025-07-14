@@ -6,6 +6,7 @@ mediaidade = 0
 somaidade = 0
 maioridadehomen = 0
 nomevelho = ''
+totmulher20 = 0
 
 for i in range(1, 5):
     idade = int(input('Qual é a idade: '))
@@ -16,4 +17,15 @@ for i in range(1, 5):
     if i == 1 and sexo in 'Mm':
         maioridadehomen = idade
         nomevelho = nome
-mediaidade = idade / 4
+
+    if sexo in 'Mm' and idade > maioridadehomen:
+         maioridadehomen = idade
+         nomevelho = nome
+    
+    if sexo in 'Ff' and idade < 20:
+        totmulher20 += 1
+
+mediaidade = somaidade / 4
+print(f'A média de idade do grupo é de {mediaidade} anos')
+print(f'O homen mais velho tem {maioridadehomen} e se chama {nomevelho}')
+print(f'Ao todo são {totmulher20} com menos de 20 anos')
