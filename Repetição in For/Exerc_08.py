@@ -1,3 +1,5 @@
+#Exercício Python 53: Crie um programa que leia uma frase qualquer e diga se ela é um palíndromo, desconsiderando os espaços. Exemplos de palíndromos:
+
 frase = str(input('Digite a Frase: ')).strip().upper()
 palvras = frase.split()
 junto = ''.join(palvras)
