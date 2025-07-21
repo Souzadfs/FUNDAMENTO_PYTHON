@@ -2,14 +2,16 @@
 
 senha_salva = "123456"
 senha_digitada = ''
-repeticao = 1
+repeticao = 0
 
 while senha_salva != senha_digitada:
     senha_digitada = input(f'Sua senha repetidas em ({repeticao}x): ')
+    
+    if senha_salva == senha_digitada:
+        print("Logado com Sucesso")
 
     repeticao += 1
     if repeticao > 2:
         print(f'Sua senha foi broqueada após {repeticao} tentativa')
         break
-print(repeticao)
-print('Aquele laço a acima pode ter repetição infinita')
+#print("Logado com Sucesso")
