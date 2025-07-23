@@ -3,9 +3,11 @@
 
 #[ 2 ] multiplicar
 
+import os
+
 while True:
-    primeiro_valor = float(input('Digite o primeiro valor :'))
-    segundo_valor = float(input('Digite o segundo valor :'))
+    primeiro_valor = float(input('Digite o primeiro valor : '))
+    segundo_valor = float(input('Digite o segundo valor : '))
     print(''' [ 1 ] Somar' 
               [ 2 ] Mutiplicar' 
               [ 3 ] Maior' 
@@ -26,3 +28,11 @@ while True:
             print(f'O Primeiro valor {primeiro_valor} é Maior que o {segundo_valor}') 
         elif primeiro_valor < segundo_valor:
             print(f'O Segundo valor {segundo_valor} é Maior que o {primeiro_valor}')
+    
+    elif opcao == 4:
+        print('Informe os numeros novamente: ')
+
+    elif opcao == 5:
+        os.system('cls')
+        print('Finalizado')
+        break
