@@ -13,6 +13,7 @@ while True:
 
     if computador < jogador:
         print(f'É menos')
+        print(computador)
     
     elif computador > jogador:
         print(f'Mais')
