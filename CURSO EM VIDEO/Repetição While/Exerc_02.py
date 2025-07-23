@@ -4,22 +4,24 @@
 
 from random import randint
 
-computador = randint(0, 1000)
+computador = randint(0, 100000)
+acertou = False
+palpite = 0
 
-while True:
+while not acertou:
 
     jogador = int(input('Eu sou o computador e pensei em um numero qual seu numero: '))
+    palpite += 1
 
 
     if computador < jogador:
-        print(f'É menos')
-        print(computador)
+        print(f'Menos')
     
     elif computador > jogador:
         print(f'Mais')
 
     elif computador == jogador:
-        print(f'Acertou')
+        acertou = True
         break
 
-print(computador)
+print(f'Você acertou com {palpite}, e numero é {computador}')
