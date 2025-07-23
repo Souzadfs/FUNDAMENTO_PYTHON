@@ -30,9 +30,12 @@ while True:
             print(f'O Segundo valor {segundo_valor} é Maior que o {primeiro_valor}')
     
     elif opcao == 4:
-        print('Informe os numeros novamente: ')
+        print('Informe os numeros novamente: ') 
 
     elif opcao == 5:
         os.system('cls')
         print('Finalizado')
         break
+
+    elif opcao != '12345':
+        print(  'tente novamente')   
