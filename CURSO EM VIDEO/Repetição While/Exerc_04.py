@@ -6,7 +6,7 @@
 #while True:
 #    numero = int(input('Digite um numero: '))
 #    f = factorial(numero)
-#    print(numero, f)
+#    print(numero, f)..
 
 
 numero = int(input('Digite um numero: '))
