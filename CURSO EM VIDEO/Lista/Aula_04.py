@@ -1,4 +1,5 @@
 lista = ['Ana', 'Denis', 'Lara']
+indices = range(len(lista))
 
-for nome in lista:
-    print(nome)
+for indice in indices:
+    print(indice ,lista[indice])
